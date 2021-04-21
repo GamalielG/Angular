@@ -19,7 +19,7 @@ export class PromesasComponent implements OnInit {
     });
 
     this.obtenerNest().then(conectarNest => {
-      return conectarNest;
+      return conectarNest;//unir appi
     });
 
     //this.getUsuarios2();
